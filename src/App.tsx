@@ -10,7 +10,7 @@ function App() {
     <>
     {
       cardData.map(item=>(
-        <div>
+        <div key={item.id}>
           <i className={item.icon}></i>
         </div>
       ))
