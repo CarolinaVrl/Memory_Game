@@ -4,6 +4,7 @@ import './App.css'
 
 function App() {
  
+  const cardList = cardData.sort(()=>Math.random() - 0.5);
 
   return (
     <>
