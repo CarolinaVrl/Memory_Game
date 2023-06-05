@@ -8,14 +8,19 @@ function App() {
 
   return (
     <>
+    <h1>Juego de Memoria</h1>
+    <div className='container'>
     {
-      cardData.map(item=>(
+      cardList.map(item=>(
         <div key={item.id}>
           <i className={item.icon}></i>
         </div>
       ))
     }
      
+
+    </div>
+    
     </>
   )
 }
