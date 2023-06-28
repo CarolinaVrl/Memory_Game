@@ -13,7 +13,7 @@ function App() {
     {
       cardList.map(item=>(
         <div key={item.id}>
-          <i className={item.icon}></i>
+         <img src={item.icon} alt="" />
         </div>
       ))
     }

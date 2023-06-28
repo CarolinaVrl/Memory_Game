@@ -1,86 +1,94 @@
 import React from 'react';
+import naruto from './assets/naruto.png';
+import ichigo from './assets/bleach.png';
+import pikachu from './assets/picacku.jpeg';
+import agumon from './assets/agumon.jpeg';
+import kero from './assets/kero.jpg';
+import luffy from './assets/luffy.png';
+import kira from './assets/kira.jpg';
+import david from './assets/david.jpeg';
 
  
 
 export default [
     {
         id:1,
-        icon:"fa-solid fa-ghost",
+        icon: david,
         status:'down'
     },
     {
         id:2,
-        icon:"fa-solid fa-ghost",
+        icon: david,
         status:'down'
     },
     {
         id:3,
-        icon:"fa-solid fa-dragon",
+        icon:kira,
         status:'down'
     },
     {
         id:4,
-        icon:"fa-solid fa-dragon",
+        icon:kira,
         status:'down'
     },
     {
         id:5,
-        icon:"fa-solid fa-fire",
+        icon:pikachu,
         status:'down'
     },
     {
         id:6,
-        icon:"fa-solid fa-fire",
+        icon:pikachu,
         status:'down'
     },
     {
         id:7,
-        icon:"fa-solid fa-house",
+        icon:kero,
         status:'down'
     },
     {
         id:8,
-        icon:"fa-solid fa-house",
+        icon:kero,
         status:'down'
     },
     {
         id:9,
-        icon:"fa-solid fa-snowflake",
+        icon:ichigo,
         status:'down'
     },
     {
         id:10,
-        icon:"fa-solid fa-snowflake",
+        icon:ichigo,
         status:'down'
     },
     {
         id:11,
-        icon:"fa-solid fa-carrot",
+        icon:naruto,
         status:'down'
     },
     {
         id:12,
-        icon:"fa-solid fa-carrot",
+        icon:naruto,
         status:'down'
     },
     {
         id:13,
-        icon:"fa-solid  fa-car",
+        icon:luffy,
         status:'down'
     },
     {
         id:14,
-        icon:"fa-solid  fa-car",
+        icon:luffy,
         status:'down'
     },
     {
         id:15,
-        icon:"fa-solid  fa-heart",
+        icon:agumon,
         status:'down'
     },
     {
         id:16,
-        icon:"fa-solid  fa-heart",
+        icon:agumon,
         status:'down'
     },
 
