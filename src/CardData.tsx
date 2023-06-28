@@ -7,6 +7,8 @@ import kero from './assets/kero.jpg';
 import luffy from './assets/luffy.png';
 import kira from './assets/kira.jpg';
 import david from './assets/david.jpeg';
+import goku from './assets/goku.jpeg';
+import yugi from './assets/yugi.jpg';
 
  
 
@@ -91,6 +93,28 @@ export default [
         icon:agumon,
         status:'down'
     },
+    {
+        id:17,
+        icon:yugi,
+        status:'down'
+    },
+    {
+        id:18,
+        icon:yugi,
+        status:'down'
+    },
+    {
+        id:19,
+        icon:goku,
+        status:'down'
+    },
+    {
+        id:20,
+        icon:goku,
+        status:'down'
+    },
+
+
 
     
     
