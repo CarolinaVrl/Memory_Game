@@ -13,7 +13,14 @@ function App() {
     {
       cardList.map(item=>(
         <div className='card' key={item.id}>
-         <img src={item.icon} alt="" />
+          {
+            item.status !== "down"
+            &&
+            <img  src={item.icon} alt="" />
+          }
+          
+          
+         
         </div>
       ))
     }
