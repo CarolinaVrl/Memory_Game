@@ -12,7 +12,7 @@ function App() {
     <div className='container'>
     {
       cardList.map(item=>(
-        <div key={item.id}>
+        <div className='card' key={item.id}>
          <img src={item.icon} alt="" />
         </div>
       ))
